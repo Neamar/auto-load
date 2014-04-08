@@ -1,6 +1,7 @@
 autoload
 =========
-
+[![Build Status](https://travis-ci.org/Neamar/autoload.png?branch=master)](https://travis-ci.org/Papiel/anyfetch-provider.js)
+[![Dependency Status](https://gemnasium.com/Neamar/autoload.png)](https://gemnasium.com/Papiel/anyfetch-provider.js)
 `require()` all files in subfolder.
 
 This will pre-load all files with require, and build an object.
