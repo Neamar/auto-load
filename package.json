@@ -1,0 +1,25 @@
+{
+  "name": "autoload",
+  "description": "Require all files in subfolders",
+  "version": "1.0.0",
+  "author": "Matthieu Bacconnier <matthieu.bacconnier@papiel.fr>",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec"
+  },
+  "main": "./lib/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neamar/autoload"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "async": "0.2.x",
+    "mocha": "1.17.1",
+    "should": "3.1.x"
+  },
+  "licence": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
