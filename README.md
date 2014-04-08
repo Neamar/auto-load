@@ -1,9 +1,9 @@
-autoload
+auto-load
 =========
-[![Build Status](https://travis-ci.org/Neamar/autoload.png?branch=master)](https://travis-ci.org/Papiel/anyfetch-provider.js)
-[![Dependency Status](https://gemnasium.com/Neamar/autoload.png)](https://gemnasium.com/Papiel/anyfetch-provider.js)
-[![Coverage Status](https://coveralls.io/repos/Neamar/autoload/badge.png?branch=master)](https://coveralls.io/r/Papiel/anyfetch-provider?branch=master)
-[![NPM version](https://badge.fury.io/js/Neamar/autoload.png)](http://badge.fury.io/js/anyfetch-provider)
+[![Build Status](https://travis-ci.org/Neamar/autoload.png?branch=master)](https://travis-ci.org/Neamar/autoload)
+[![Dependency Status](https://gemnasium.com/Neamar/autoload.png)](https://gemnasium.com/Neamar/autoload)
+[![Coverage Status](https://coveralls.io/repos/Neamar/autoload/badge.png?branch=master)](https://coveralls.io/r/Neamar/autoload?branch=master)
+[![NPM version](https://badge.fury.io/js/auto-load.png)](http://badge.fury.io/js/auto-load)
 
 `require()` all files in subfolder.
 
