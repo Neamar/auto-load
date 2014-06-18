@@ -38,3 +38,5 @@ Calling `autoload(__dirname)` will give:
 ```
 
 Where `exportsFromFile` is the value returned by the file `module.exports`.
+
+> Non js or json files are not loaded.
