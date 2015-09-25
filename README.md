@@ -40,3 +40,19 @@ Calling `autoload(__dirname)` will give:
 Where `exportsFromFile` is the value returned by the file `module.exports`.
 
 > Non js or json files are not loaded.
+
+You can load the files with two types of paths:
+
+- Absolute, in which case the files will be included from the full path:
+
+```js
+autoload(__dirname);
+autoload(__dirname + '/directory')
+```
+
+- Relative, in which case the files will be loaded relative to the root of your project (where the node instance is being executed). To do this, you simply have to pass the name of the file:
+
+```js
+// will load /username/projectname/directory
+autoload('directory');
+```
