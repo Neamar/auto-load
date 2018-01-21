@@ -14,8 +14,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "2.x.x",
-    "should": "4.x.x"
+    "mocha": "^5.0.0",
+    "should": "^13.2.1"
   },
   "licence": "MIT",
   "engines": {

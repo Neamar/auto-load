@@ -1,5 +1,7 @@
 auto-load
 =========
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Neamar/auto-load.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Neamar/auto-load.png?branch=master)](https://travis-ci.org/Neamar/auto-load)
 [![Dependency Status](https://gemnasium.com/Neamar/auto-load.png)](https://gemnasium.com/Neamar/auto-load)
 [![Coverage Status](https://coveralls.io/repos/Neamar/auto-load/badge.png?branch=master)](https://coveralls.io/r/Neamar/auto-load?branch=master)
