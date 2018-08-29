@@ -1,18 +1,16 @@
-
-
 declare module 'auto-load' {
-    declare type ModuleExports = any;
-    declare type AutoloadTree = {
+    type ModuleExports = any;
+    type AutoloadTree = {
         [key: string]: AutoloadTree | ModuleExports
     };
 
-    declare interface AutoloadOptions {
+    interface AutoloadOptions {
         deep?: boolean,
         js?: boolean,
         json?: boolean
     }
 
-    declare function autoload(baseDirectory: string, options?: AutoloadOptions): AutoloadTree;
+    function autoload(baseDirectory: string, options?: AutoloadOptions): AutoloadTree;
 
     export = autoload;
 }
