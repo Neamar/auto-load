@@ -1,7 +1,7 @@
 {
   "name": "auto-load",
   "description": "Require all files in subfolders",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "author": "Matthieu Bacconnier <matthieu.bacconnier@papiel.fr>",
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec"
